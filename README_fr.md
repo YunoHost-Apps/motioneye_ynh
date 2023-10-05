@@ -19,9 +19,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 Ceci est une fausse description des fonctionalités de l'app
 
 
-**Version incluse :** 1.0~ynh1
-
-**Démo :** https://demo.example.com
+**Version incluse :** 0.2023.07.31~ynh1
 
 ## Captures d’écran
 
@@ -29,11 +27,8 @@ Ceci est une fausse description des fonctionalités de l'app
 
 ## Documentations et ressources
 
-* Site officiel de l’app : <https://github.com/motioneye-project/motioneye>
-* Documentation officielle utilisateur : <https://yunohost.org/apps>
-* Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
+* Documentation officielle utilisateur : <https://github.com/motioneye-project/motioneye/wiki>
 * Dépôt de code officiel de l’app : <https://github.com/motioneye-project/motioneye>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_motioneye>
 * Signaler un bug : <https://github.com/YunoHost-Apps/motioneye_ynh/issues>
 
 ## Informations pour les développeurs

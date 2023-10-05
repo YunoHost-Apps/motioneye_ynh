@@ -1,13 +1,13 @@
 [Unit]
-Description=motionEye Server for Yunohost
+Description=motionEye: Web frontend for the motion daemon
 After=network.target
 
 [Service]
 Type=simple
 User=__APP__
 Group=__APP__
-WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/bin/meyectl startserver -c /etc/motioneye/motioneye.conf
+WorkingDirectory=__INSTALL_DIR__/venv
+ExecStart=__INSTALL_DIR__/venv/bin/meyectl startserver -c /etc/motioneye/motioneye.conf
 StandardOutput=append:/var/log/__APP__/__APP__.log
 StandardError=inherit
 Restart=on-abort
