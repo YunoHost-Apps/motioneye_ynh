@@ -20,6 +20,9 @@ NON debe editarse manualmente.
 
 Check out the [__wiki__](https://github.com/motioneye-project/motioneye/wiki) for more details.
 
+Default user for login is: `admin` and empty password.
+
+
 **Versión proporcionada:** 0.43.1b1~ynh1
 
 ## Capturas de pantalla

@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install motionEye with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=motioneye)
 
-*[Read this README is other languages.](./ALL_README.md)*
+*[Read this README in other languages.](./ALL_README.md)*
 
 > *This package allows you to install motionEye quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
@@ -19,6 +19,9 @@ It shall NOT be edited by hand.
 **motionEye** is an online interface for the software [_motion_](https://motion-project.github.io/), a video surveillance program with motion detection.
 
 Check out the [__wiki__](https://github.com/motioneye-project/motioneye/wiki) for more details.
+
+Default user for login is: `admin` and empty password.
+
 
 **Shipped version:** 0.43.1b1~ynh1
 
