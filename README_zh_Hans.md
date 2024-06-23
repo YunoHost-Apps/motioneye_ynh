@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 motionEye
+# YunoHost 上的 motionEye
 
 [![集成程度](https://dash.yunohost.org/integration/motioneye.svg)](https://dash.yunohost.org/appci/app/motioneye) ![工作状态](https://ci-apps.yunohost.org/ci/badges/motioneye.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/motioneye.maintain.svg)
 
