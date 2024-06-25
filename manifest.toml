@@ -53,6 +53,7 @@ ram.runtime = "1024M"
         sha256 = "4eb191029a142f11f4c30cf558e2552ea4b9d659aee54cb65a5e7e4f6f56bd11"
         extract = false
         rename = "source.tar.gz"
+        # autoupdater temporarily disabled, waiting for 0.43.1 final release (python 3 support)
         # autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]

@@ -74,13 +74,11 @@ ynh_script_progression --message="Adding a configuration file..." --weight=1
 
 ynh_add_config --template="../conf/motioneye.conf" --destination="$install_dir/motioneye.conf"
 
-
 #=================================================
 # GENERIC FINALIZATION
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
-
 ynh_script_progression --message="Starting a systemd service..." --weight=1
 
 # Start a systemd service
