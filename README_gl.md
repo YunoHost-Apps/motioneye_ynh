@@ -5,7 +5,7 @@ NON debe editarse manualmente.
 
 # motionEye para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/motioneye.svg)](https://dash.yunohost.org/appci/app/motioneye) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/motioneye.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/motioneye.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/motioneye.svg)](https://ci-apps.yunohost.org/ci/apps/motioneye/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/motioneye.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/motioneye.maintain.svg)
 
 [![Instalar motionEye con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=motioneye)
 

@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # motionEye para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/motioneye.svg)](https://dash.yunohost.org/appci/app/motioneye) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/motioneye.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/motioneye.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/motioneye.svg)](https://ci-apps.yunohost.org/ci/apps/motioneye/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/motioneye.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/motioneye.maintain.svg)
 
 [![Instalar motionEye con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=motioneye)
 
@@ -38,7 +38,7 @@ Default user for login is: `admin` and empty password.
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/motioneye_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/motioneye_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
