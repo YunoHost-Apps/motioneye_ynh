@@ -32,7 +32,7 @@ ynh_add_nginx_config
 # Create a dedicated systemd config
 ynh_add_systemd_config
 
-yunohost service add $app --description="Web frontend for the motion daemon" --log="/var/log/$app/$app.log"
+yunohost service add $app --description="Web frontend for the motion daemon" --log="/var/log/$app/$app.log" --needs_exposed_ports 8765
 
 # Use logrotate to manage application logfile(s)
 ynh_use_logrotate
