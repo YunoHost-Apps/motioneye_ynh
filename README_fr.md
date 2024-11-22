@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # motionEye pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/motioneye.svg)](https://dash.yunohost.org/appci/app/motioneye) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/motioneye.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/motioneye.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/motioneye.svg)](https://ci-apps.yunohost.org/ci/apps/motioneye/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/motioneye.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/motioneye.maintain.svg)
 
 [![Installer motionEye avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=motioneye)
 
@@ -20,7 +20,7 @@ Il NE doit PAS être modifié à la main.
 
 Consultez le [__wiki__](https://github.com/motioneye-project/motioneye/wiki) pour plus de détails.
 
-**Version incluse :** 0.43.1b1~ynh1
+**Version incluse :** 0.43.1b1~ynh2
 
 ## Captures d’écran
 

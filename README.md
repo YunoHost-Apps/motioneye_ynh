@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # motionEye for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/motioneye.svg)](https://dash.yunohost.org/appci/app/motioneye) ![Working status](https://ci-apps.yunohost.org/ci/badges/motioneye.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/motioneye.maintain.svg)
+[![Integration level](https://dash.yunohost.org/integration/motioneye.svg)](https://ci-apps.yunohost.org/ci/apps/motioneye/) ![Working status](https://ci-apps.yunohost.org/ci/badges/motioneye.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/motioneye.maintain.svg)
 
 [![Install motionEye with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=motioneye)
 
@@ -23,7 +23,7 @@ Check out the [__wiki__](https://github.com/motioneye-project/motioneye/wiki) fo
 Default user for login is: `admin` and empty password.
 
 
-**Shipped version:** 0.43.1b1~ynh1
+**Shipped version:** 0.43.1b1~ynh2
 
 ## Screenshots
 

@@ -5,7 +5,7 @@
 
 # YunoHost 上的 motionEye
 
-[![集成程度](https://dash.yunohost.org/integration/motioneye.svg)](https://dash.yunohost.org/appci/app/motioneye) ![工作状态](https://ci-apps.yunohost.org/ci/badges/motioneye.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/motioneye.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/motioneye.svg)](https://ci-apps.yunohost.org/ci/apps/motioneye/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/motioneye.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/motioneye.maintain.svg)
 
 [![使用 YunoHost 安装 motionEye](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=motioneye)
 
@@ -23,7 +23,7 @@ Check out the [__wiki__](https://github.com/motioneye-project/motioneye/wiki) fo
 Default user for login is: `admin` and empty password.
 
 
-**分发版本：** 0.43.1b1~ynh1
+**分发版本：** 0.43.1b1~ynh2
 
 ## 截图
 
