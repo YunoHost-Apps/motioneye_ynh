@@ -43,7 +43,7 @@ ynh_config_add_systemd
 
 yunohost service add $app --description="Web frontend for the motion daemon" --log="/var/log/$app/$app.log"
 
-ynh_use_logrotate --non-append
+ynh_config_add_logrotate
 touch /var/log/$app/$app.log
 chown -R $app:$app /var/log/$app/
 
