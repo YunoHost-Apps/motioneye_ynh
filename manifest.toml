@@ -7,7 +7,7 @@ name = "motionEye"
 description.en = "Interface for the software Motion, video surveillance program with motion detection"
 description.fr = "Interface pour le logiciel Motion, programme de vidéosurveillance avec détection de mouvement"
 
-version = "0.43.1b1~ynh2"
+version = "0.43.1b1~ynh3"
 
 maintainers = ["solazdev"]
 

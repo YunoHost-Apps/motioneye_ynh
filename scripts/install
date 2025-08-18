@@ -36,6 +36,8 @@ yunohost service add $app --description="Web frontend for the motion daemon" --l
 
 # Use logrotate to manage application logfile(s)
 ynh_use_logrotate
+touch /var/log/$app/$app.log
+chown -R $app:$app /var/log/$app/
 
 #=================================================
 # APP INITIAL CONFIGURATION
@@ -60,10 +62,6 @@ popd
 mkdir -p $install_dir/run
 chown $app:$app $install_dir/run
 chmod 664 $install_dir/run
-# logs dir
-mkdir -p $install_dir/logs
-chown $app:$app $install_dir/logs
-chmod 664 $install_dir/logs
 
 #=================================================
 # APP INITIAL CONFIGURATION

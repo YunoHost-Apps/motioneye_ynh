@@ -52,6 +52,8 @@ ynh_add_systemd_config
 yunohost service add $app --description="Web frontend for the motion daemon" --log="/var/log/$app/$app.log"
 
 ynh_use_logrotate --non-append
+touch /var/log/$app/$app.log
+chown -R $app:$app /var/log/$app/
 
 #=================================================
 # RECONFIGURE THE APP (UPDATE CONF, APPLY MIGRATIONS...)

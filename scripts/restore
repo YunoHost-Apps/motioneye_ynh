@@ -29,10 +29,6 @@ popd
 mkdir -p $install_dir/run
 chown $app:$app $install_dir/run
 chmod 664 $install_dir/run
-# logs dir
-mkdir -p $install_dir/logs
-chown $app:$app $install_dir/logs
-chmod 664 $install_dir/logs
 
 #=================================================
 # RESTORE THE DATA DIRECTORY
