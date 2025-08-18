@@ -20,11 +20,6 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Check out the [__wiki__](https://github.com/motioneye-project/motioneye/wiki) for more details.
 
-Default user for login is: `admin` and empty password.
-
-
-**Versi terkirim:** 0.43.1b1~ynh2
-
 ## Tangkapan Layar
 
 ![Tangkapan Layar pada motionEye](./doc/screenshots/example.png)
