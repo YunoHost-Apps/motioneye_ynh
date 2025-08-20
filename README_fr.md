@@ -20,7 +20,7 @@ Il NE doit PAS être modifié à la main.
 
 Consultez le [__wiki__](https://github.com/motioneye-project/motioneye/wiki) pour plus de détails.
 
-**Version incluse :** 0.43.1b1~ynh1
+**Version incluse :** 0.43.1b1~ynh2
 
 ## Captures d’écran
 

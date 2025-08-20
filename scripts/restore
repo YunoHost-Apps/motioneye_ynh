@@ -11,21 +11,10 @@ ynh_script_progression "Restoring the app main directory..."
 
 ynh_restore "$install_dir"
 
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R $app:www-data "$install_dir"
-pushd $install_dir
-	python3 -m venv venv
-    venv/bin/pip install --upgrade pip
-    venv/bin/pip install source.tar.gz
-popd
-
 # pid dir
 mkdir -p $install_dir/run
 chown $app:$app $install_dir/run
 chmod 664 $install_dir/run
-# logs dir
-mkdir -p $install_dir/logs
-chown $app:$app $install_dir/logs
-chmod 664 $install_dir/logs
 
 #=================================================
 # RESTORE THE DATA DIRECTORY
@@ -33,9 +22,6 @@ chmod 664 $install_dir/logs
 ynh_script_progression "Restoring the data directory..."
 
 ynh_restore "$data_dir"
-
-# (Same as for install dir)
-chown -R $app:www-data "$data_dir"
 
 #=================================================
 # RESTORE SYSTEM CONFIGURATIONS
@@ -49,7 +35,10 @@ systemctl enable $app.service --quiet
 
 yunohost service add $app --description="Web frontend for the motion daemon" --log="/var/log/$app/$app.log"
 
+mkdir -p /var/log/$app
 ynh_restore "/etc/logrotate.d/$app"
+touch /var/log/$app/$app.log
+chown -R $app:$app /var/log/$app/
 
 #=================================================
 ynh_script_progression "Reloading NGINX web server and $app's service..."

@@ -23,7 +23,7 @@ Check out the [__wiki__](https://github.com/motioneye-project/motioneye/wiki) fo
 Default user for login is: `admin` and empty password.
 
 
-**Versión actual:** 0.43.1b1~ynh1
+**Versión actual:** 0.43.1b1~ynh2
 
 ## Capturas
 
