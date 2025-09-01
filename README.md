@@ -17,6 +17,7 @@ Interface for the software Motion, video surveillance program with motion detect
 <a href="https://github.com/YunoHost-Apps/motioneye_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
 
+
 ## Screenshots
 ![Screenshot of motionEye](./doc/screenshots/example.png)
 
