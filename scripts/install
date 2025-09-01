@@ -4,8 +4,6 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
-# APP "BUILD" (DEPLOYING SOURCES, VENV, COMPILING ETC)
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression "Setting up source files..."
@@ -34,11 +32,10 @@ chown -R $app:$app /var/log/$app/
 #=================================================
 # APP INITIAL CONFIGURATION
 #=================================================
-# ADD A CONFIGURATION
-#=================================================
 ynh_script_progression "Adding $app's configuration..."
 
 ynh_config_add --template="motioneye.conf" --destination="$install_dir/motioneye.conf"
+
 #=================================================
 # SETUP APPLICATION
 #=================================================
@@ -54,15 +51,6 @@ popd
 mkdir -p $install_dir/run
 chown $app:$app $install_dir/run
 chmod 664 $install_dir/run
-
-#=================================================
-# APP INITIAL CONFIGURATION
-#=================================================
-# ADD A CONFIGURATION
-#=================================================
-ynh_script_progression "Adding $app's configuration..."
-
-ynh_config_add --template="motioneye.conf" --destination="$install_dir/motioneye.conf"
 
 #=================================================
 # START SYSTEMD SERVICE

@@ -41,6 +41,8 @@ touch /var/log/$app/$app.log
 chown -R $app:$app /var/log/$app/
 
 #=================================================
+# RELOAD NGINX AND PHP-FPM OR THE APP SERVICE
+#=================================================
 ynh_script_progression "Reloading NGINX web server and $app's service..."
 
 ynh_systemctl --service=$app --action="start"
