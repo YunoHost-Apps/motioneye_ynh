@@ -8,8 +8,8 @@ User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/venv
 ExecStart=__INSTALL_DIR__/venv/bin/meyectl startserver -c __INSTALL_DIR__/motioneye.conf
-StandardOutput=append:__INSTALL_DIR__/__APP__.log
-StandardError=inherit
+StandardOutput=append:/var/log/__APP__/__APP__.log
+StandardError=append:/var/log/__APP__/__APP__.log
 Restart=on-abort
 
 # Sandboxing options to harden security
