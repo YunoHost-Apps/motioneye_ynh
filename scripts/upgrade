@@ -11,25 +11,18 @@ ynh_script_progression "Stopping $app's systemd service..."
 ynh_systemctl --service=$app --action="stop"
 
 #=================================================
-# "REBUILD" THE APP (DEPLOY NEW SOURCES, RERUN NPM BUILD...)
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
+ynh_script_progression "Upgrading source files..."
 
-# this is still supported but the recommendation is now to *always* re-setup the app sources wether or not the upstream sources changed
-if ynh_app_upstream_version_changed
-then
-	ynh_script_progression "Upgrading source files..."
+# Download, check integrity, uncompress and patch the source from app.src
+ynh_setup_source --dest_dir="$install_dir" --keep="motioneye.conf"
 
-	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$install_dir"
-
-	pushd $install_dir
-		python3 -m venv venv
-		venv/bin/pip install --upgrade pip
-		venv/bin/pip install source.tar.gz
-	popd
-fi
+pushd $install_dir
+	python3 -m venv venv
+	venv/bin/pip install --upgrade pip
+	venv/bin/pip install source.tar.gz
+popd
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
@@ -46,8 +39,6 @@ ynh_config_add_logrotate
 touch /var/log/$app/$app.log
 chown -R $app:$app /var/log/$app/
 
-#=================================================
-# RECONFIGURE THE APP (UPDATE CONF, APPLY MIGRATIONS...)
 #=================================================
 # UPDATE A CONFIG FILE
 #=================================================
