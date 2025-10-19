@@ -7,7 +7,7 @@ name = "motionEye"
 description.en = "Interface for the software Motion, video surveillance program with motion detection"
 description.fr = "Interface pour le logiciel Motion, programme de vidéosurveillance avec détection de mouvement"
 
-version = "0.43.1b1~ynh2"
+version = "0.43.1b1~ynh3"
 
 maintainers = ["solazdev"]
 
@@ -17,11 +17,14 @@ userdoc = "https://github.com/motioneye-project/motioneye/wiki"
 code = "https://github.com/motioneye-project/motioneye"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 12.0.9"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
+
 ldap = false
 sso = true
+
 disk = "500M"
 ram.build = "512M"
 ram.runtime = "1024M"
@@ -49,6 +52,7 @@ ram.runtime = "1024M"
     [resources.system_user]
 
     [resources.install_dir]
+    group = "www-data:r-x"
 
     [resources.data_dir]
     subdirs = ["media"]

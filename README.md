@@ -10,7 +10,7 @@ It shall NOT be edited by hand.
 
 Interface for the software Motion, video surveillance program with motion detection
 
-[![Version: 0.43.1b1~ynh2](https://img.shields.io/badge/Version-0.43.1b1~ynh2-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/motioneye/)
+[![Version: 0.43.1b1~ynh3](https://img.shields.io/badge/Version-0.43.1b1~ynh3-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/motioneye/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/motioneye"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
