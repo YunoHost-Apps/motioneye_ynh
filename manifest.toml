@@ -7,7 +7,7 @@ name = "motionEye"
 description.en = "Interface for the software Motion, video surveillance program with motion detection"
 description.fr = "Interface pour le logiciel Motion, programme de vidéosurveillance avec détection de mouvement"
 
-version = "0.43.1b1~ynh3"
+version = "0.43.1b4~ynh1"
 
 maintainers = ["solazdev"]
 
@@ -42,8 +42,8 @@ ram.runtime = "1024M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/motioneye-project/motioneye/archive/refs/tags/0.43.1b1.tar.gz"
-        sha256 = "4eb191029a142f11f4c30cf558e2552ea4b9d659aee54cb65a5e7e4f6f56bd11"
+        url = "https://github.com/motioneye-project/motioneye/archive/refs/tags/0.43.1b4.tar.gz"
+        sha256 = "81e962294c5efae9112ae277fb6c13d2477ba8ad0f1398398e1dc1c2f9d530fe"
         extract = false
         rename = "source.tar.gz"
         # autoupdater temporarily disabled, waiting for 0.43.1 final release (python 3 support)
