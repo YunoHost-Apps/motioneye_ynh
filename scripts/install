@@ -51,6 +51,7 @@ mkdir -p $install_dir/run
 chown $app:$app $install_dir/run
 chmod 664 $install_dir/run
 chmod +x $install_dir/run
+usermod -aG video $app
 
 #=================================================
 # START SYSTEMD SERVICE
