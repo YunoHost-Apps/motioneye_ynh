@@ -48,6 +48,8 @@ ynh_config_add --template="motioneye.conf" --destination="$install_dir/motioneye
 chmod 600 "$install_dir/motioneye.conf"
 chown $app:$app "$install_dir/motioneye.conf"
 
+chmod +x $install_dir/run
+
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
