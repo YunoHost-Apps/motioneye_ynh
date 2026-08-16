@@ -7,7 +7,7 @@ name = "motionEye"
 description.en = "Interface for the software Motion, video surveillance program with motion detection"
 description.fr = "Interface pour le logiciel Motion, programme de vidéosurveillance avec détection de mouvement"
 
-version = "0.43.1b4~ynh2"
+version = "0.44.0~ynh1"
 
 maintainers = ["solazdev"]
 
@@ -42,8 +42,8 @@ ram.runtime = "1024M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/motioneye-project/motioneye/archive/refs/tags/0.43.1b4.tar.gz"
-        sha256 = "81e962294c5efae9112ae277fb6c13d2477ba8ad0f1398398e1dc1c2f9d530fe"
+        url = "https://github.com/motioneye-project/motioneye/archive/refs/tags/0.44.0.tar.gz"
+        sha256 = "34b33d4c3d54455649cadb746e1dd46ee9eab932b17432fd64d536649d1e9e1b"
         extract = false
         rename = "source.tar.gz"
 
